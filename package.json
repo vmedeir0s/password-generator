@@ -4,8 +4,19 @@
   "description": "Simples projeto, gerador de senhas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "material-icons": "^1.13.3",
+    "nanoid": "^4.0.2",
+    "vite": "^4.2.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
 }
